@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "category": "Fashion",
+      "title": "What is Fashion in Simple Words?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-1.jpg",
+      "link": "#"
+    },
+    {
+      "category": "Fashion",
+      "title": "What should I buy for spring 2025?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-2.jpg",
+      "link": "#"
+    },
+    {
+      "category": "Fashion",
+      "title": "Why is fashion so important?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-3.jpg",
+      "link": "#"
+    },
+    {
+      "category": "Fashion",
+      "title": "How should I dress for spring?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-4.jpg",
+      "link": "#"
+    },
+    {
+      "category": "Fashion",
+      "title": "What’s the fashion trend for 2025?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-5.jpg",
+      "link": "#"
+    },
+    {
+      "category": "Fashion",
+      "title": "What styles are trending for 2025?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...",
+      "image": "fashion-6.jpg",
+      "link": "#"
+    }
+  ],
+  "footer": {
+    "title": "fashion <br> magazine",
+    "description": "FOLLOW US ON <br> INSTAGRAM",
+    "iconClass": "fa-brands fa-instagram",
+    "link": "#"
+  }
+}

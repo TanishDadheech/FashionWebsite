@@ -1,0 +1,143 @@
+.rightside {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.rightside .box-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightside .box-container .box
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rightside .box-container .box:hover
+{
+    transform: translateY(-5px);
+}
+
+.rightside .box-container .box .image
+{
+    width: 50%;
+}
+
+.rightside .box-container .box .image img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.rightside .box-container .box .content
+{
+    width: 50%;
+}
+
+.rightside .box-container .box .content span
+{
+    display: block;
+    font-size: 1.1rem;
+    color: var(--color-red);
+    margin-bottom: 10px;
+}
+
+.rightside .box-container .box .content h2
+{
+    font-size: 1.7rem;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.rightside .box-container .box .content p
+{
+    font-size: 1.1rem;
+    color: #7c7c7c;
+}
+
+.rightside .box-container .box.left
+{
+    flex-direction: row;
+}
+
+.rightside .box-container .box.right
+{
+    flex-direction: row-reverse;
+}
+
+.rightside::-webkit-scrollbar
+{
+    width: 8px;
+}
+
+.rightside::-webkit-scrollbar-thumb
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.rightside::-webkit-scrollbar-track
+{
+    background-color: #f1f1f1;
+}
+
+.rightside .footer
+{
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0%;
+}
+
+.rightside .footer h2
+{
+    font-size: 4rem;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.rightside .footer p
+{
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.rightside .footer a i
+{
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.rightside .footer a i:hover
+{
+    color: var(--color-red);
+}
+
+/* Responsive */
+@media screen and (max-width: 480px)
+{
+    .rightside .box-container .box .content h2
+    {
+        font-size: 1.4rem;
+    }
+    .rightside .box-container .box .content p
+    {
+        font-size: 1rem;
+    }
+    .rightside .footer h2
+    {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}

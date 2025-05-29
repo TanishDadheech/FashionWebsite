@@ -1,0 +1,11 @@
+{
+    "title": "GLAM",
+    "menuItems": [
+      {"label": "Magazine", "link": "#"},
+      {"label": "Fashion", "link": "#"},
+      {"label": "Life Style", "link": "#"},
+      {"label": "Socials", "link": "#"},
+      {"label": "About us", "link": "#"},
+      {"label": "Contact", "link": "#"}
+    ]
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  list-style: none;
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #b10000;
+}
+
+body {
+  font-family: "Playfair", serif;
+  background-color: #141414;
+  color: var(--color-white);
+  overflow: hidden;
+}
+
+.container
+{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container > div
+{
+  flex: 1;
+}
+
+.container > .left-side
+{
+  flex-basis: 50%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.container > .right-side
+{
+  flex-basis: 50%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1024px)
+{
+  body
+  {
+    overflow-y: auto;
+  }
+  .container
+  {
+    display: block;
+    height: auto;
+  }
+  .rightside
+  {
+    overflow-y: hidden !important;
+    height: 100% !important;
+  }
+}
